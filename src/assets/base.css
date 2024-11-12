@@ -1,0 +1,44 @@
+:root {
+  --background-color: #202020;
+  --background-color-header: #202020;
+  --background-color-section: #282828;
+  --background-color-component: #383838;
+  --background-grey: #565656;
+  --font-color: #ffffff;
+
+  --base-color-purple: #596fc6;
+  --base-color-purple-darker: #3c4f9a;
+  --base-color-red: #cb5768;
+
+  --padding-section: 0 3em;
+
+  --font-size-header: 2em;
+  --font-size-hero: 3em;
+
+  --padding-form-element: 0.5em;
+  --border-radius-form-element: 0.5em;
+
+  --font-main: 'Afacad', sans-serif;
+}
+
+:root {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Afacad', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  color: var(--font-color);
+  background-color: var(--background-color-section);
+}
+#app-wrapper {
+  display: flex;
+  flex-direction: column;
+}
